@@ -23,5 +23,12 @@
 
 .custom-gradient{
    background: linear-gradient(135deg, #f8b4d9, #a8c5f7);
+}
 
+.text-gradient{
+  color: #8f56cc;
+  background: #8f56cc;
+  background: -webkit-linear-gradient(15deg, #8f56cc 0%, #5d4ec4);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparant;
 }
